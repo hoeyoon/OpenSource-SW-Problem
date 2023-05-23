@@ -59,7 +59,6 @@
 ![image1](https://github.com/hoeyoon/OpenSource-SW-Problem/blob/master/picture/%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202023-05-24%20000806.png)
 + 현재 실행중인 프로세스의 목록을 보는 명령어
 + Process Status의 약자
-+ 
 #
 + ps 실행옵션
   + **-e**: 실행중인 모든 프로세스의 정보를 출력
@@ -78,4 +77,31 @@
   + 이 밖에도 더 있음...
 ---
  ## jobs
- ![image2]()
+ ![image2](https://github.com/hoeyoon/OpenSource-SW-Problem/blob/master/picture/99E14B465E60F42D2A.png)
+ + 실행중인 백그라운드 목록 출력
+#
++ jobs 실행옵션
+  + **-l**: 더 자세한 내역 출력
+  + **-p**: PID 출력
+#
++ jobs 상태
+  + **Runing**: 작업이 종료하지 않고 계속 진행 중
+  + **Done**: 작업이 완료되어 0을 반환하고 종료 함
+  + **Stoped**: 작업이 일시 중단
+  + **Done**: 작업이 정상적으로 완료 코드를 반환
+---
+## kill
++ 프로세스에 특정한 신호를 보내는 명령어
++ 보통 실행중인 프로세스에 종료신호를 보냄
++ 중지시킬 수 없는 프로세스를 종료시킬때 많이 사용함
+#
++ kill 실행옵션
+  + **-9**: PID를 직접 지정하여 종료시 사용함
+  + **-l**: 신호로 사용할수 있는 신호 이름들을 보여줌
+#
++ 신호 이름
+  + **SIGHUP**: HUG, 로그아웃등의 접속이 끊을 때 발생하는 신호
+  + **SIGINT**: INT, 현재 작동중인 프로그램을 동작을 멈출때 사용
+  + **SIGKILL**: KILL, 프로그램을 무조건 종료할 경우 사용
+  + **SIGSEGV**: SEGV, 잘못된 메모리 관리시 생기는 신호
+  + 이 밖에 더 있음...
