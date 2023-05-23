@@ -91,6 +91,7 @@
   + **Done**: 작업이 정상적으로 완료 코드를 반환
 ---
 ## kill
+![image3](https://github.com/hoeyoon/OpenSource-SW-Problem/blob/master/picture/99FE363D5E60E5681F.png)
 + 프로세스에 특정한 신호를 보내는 명령어
 + 보통 실행중인 프로세스에 종료신호를 보냄
 + 중지시킬 수 없는 프로세스를 종료시킬때 많이 사용함
